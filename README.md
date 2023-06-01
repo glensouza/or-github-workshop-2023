@@ -21,6 +21,7 @@
 - Collaborating on projects
   - Forking a repository
   - Making pull requests
+- Branching strategies
 - Managing issues
   - Creating issues
   - Commenting on issues
