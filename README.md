@@ -1,8 +1,6 @@
 # GitHub Workshop
 
-## BARD
-
-### Day 1
+## Day 1
 
 - Introduction to GitHub
   - What is GitHub?
@@ -29,7 +27,7 @@
   - Closing issues
 - Q&A
 
-### Day 2
+## Day 2
 
 - GitHub workflows
   - Pull requests
@@ -53,7 +51,7 @@
   - Hosting a website on GitHub Pages
 - Q&A
 
-### Day 3
+## Day 3
 
 - GitHub extensions
   - IDE extensions
