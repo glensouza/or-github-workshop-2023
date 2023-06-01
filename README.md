@@ -21,7 +21,6 @@
 - Collaborating on projects
   - Forking a repository
   - Making pull requests
-- Branching strategies
 - Managing issues
   - Creating issues
   - Commenting on issues
@@ -35,7 +34,7 @@
   - Issues
   - Reviews
 - Advanced GitHub features
-  - Branches
+  - Branching strategies
   - Tags
   - Wikis
 - Continuous integration and continuous delivery (CI/CD)
