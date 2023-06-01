@@ -4,9 +4,21 @@
 
 ### Hardware
 
+- Windows, Mac, or Linux computer
+- Device that will do two-factor authentication (2FA)
+  - Mobile
+  - Biometrics
+
 ### Software
 
+- Visual Studio Code
+- GitHub Desktop
+- Git command-line
+
 ### Personal Accounts
+
+- GitHub
+- Azure
 
 ## Hands-on training agenda
 
