@@ -1,6 +1,16 @@
 # GitHub Workshop
 
-## Day 1
+## Prerequisites for this training:
+
+### Hardware
+
+### Software
+
+### Personal Accounts
+
+## Hands-on training agenda
+
+### Day 1
 
 - Introduction to GitHub
   - What is GitHub?
@@ -27,7 +37,7 @@
   - Closing issues
 - Q&A
 
-## Day 2
+### Day 2
 
 - GitHub workflows
   - Pull requests
@@ -37,6 +47,7 @@
   - Branching strategies
   - Tags
   - Wikis
+  - Packages
 - Continuous integration and continuous delivery (CI/CD)
   - What is CI/CD?
   - Setting up CI/CD with GitHub Actions
@@ -51,7 +62,7 @@
   - Hosting a website on GitHub Pages
 - Q&A
 
-## Day 3
+### Day 3
 
 - GitHub extensions
   - IDE extensions
