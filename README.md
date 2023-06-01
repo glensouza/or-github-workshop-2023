@@ -92,4 +92,7 @@
   - Code scanning
   - Secret scanning
   - Differences with SonarQube
+- If time permits:
+  - GitHub Copilot
+  - GitHub Codespaces
 - Q&A
