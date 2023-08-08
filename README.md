@@ -11,16 +11,17 @@
 
 ### Software
 
-- Visual Studio Code
-- GitHub Desktop
-- Git command-line
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Git](https://git-scm.com)
+- [GitHub Desktop](https://desktop.github.com)
 
 ### Personal Accounts
 
-- GitHub
-- Azure
+- [GitHub](https://github.com/signup)
+- [Azure](https://portal.azure.com)
+- [GitHub Copilot](https://github.com/github-copilot/signup)
 
-## Hands-on training agenda
+## Workshop agenda
 
 ### Day 1
 
