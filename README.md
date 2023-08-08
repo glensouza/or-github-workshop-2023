@@ -59,6 +59,9 @@
 - GitHub Pages
   - Creating a GitHub Pages site
   - Hosting a website on GitHub Pages
+- GitHub Packages
+  - Containers
+  - Code
 - Q&A
 
 ### Day 3
