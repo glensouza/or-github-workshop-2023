@@ -18,6 +18,7 @@
 ### Personal Accounts
 
 - [GitHub](https://github.com/signup)
+  - [2FA Enabled](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
 - [Azure](https://portal.azure.com)
 - [GitHub Copilot](https://github.com/github-copilot/signup)
 
