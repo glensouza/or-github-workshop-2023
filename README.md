@@ -11,16 +11,18 @@
 
 ### Software
 
-- Visual Studio Code
-- GitHub Desktop
-- Git command-line
+- [Visual Studio Code](https://code.visualstudio.com)
+- [Git](https://git-scm.com)
+- [GitHub Desktop](https://desktop.github.com)
 
 ### Personal Accounts
 
-- GitHub
-- Azure
+- [GitHub](https://github.com/signup)
+  - [2FA Enabled](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)
+- [Azure](https://portal.azure.com)
+- [GitHub Copilot](https://github.com/github-copilot/signup)
 
-## Hands-on training agenda
+## Workshop agenda
 
 ### Day 1
 
@@ -59,9 +61,11 @@
 - GitHub Pages
   - Creating a GitHub Pages site
   - Hosting a website on GitHub Pages
+- Wiki
 - GitHub Packages
   - Containers
   - Code
+  - Releases
 - Q&A
 
 ### Day 3
@@ -71,7 +75,6 @@
   - Third-party tools
 - GitHub for team collaboration
   - Managing team members
-  - Assigning tasks
 - GitHub Advanced Security
   - Dependabot
   - Code scanning
