@@ -61,9 +61,11 @@
 - GitHub Pages
   - Creating a GitHub Pages site
   - Hosting a website on GitHub Pages
+- Wiki
 - GitHub Packages
   - Containers
   - Code
+  - Releases
 - Q&A
 
 ### Day 3
@@ -73,7 +75,6 @@
   - Third-party tools
 - GitHub for team collaboration
   - Managing team members
-  - Assigning tasks
 - GitHub Advanced Security
   - Dependabot
   - Code scanning
