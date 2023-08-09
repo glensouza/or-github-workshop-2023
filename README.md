@@ -58,6 +58,13 @@
   - Setting up CI/CD with GitHub Actions
     - Creating a GitHub action
     - Running a GitHub action
+- Q&A
+
+### Day 3
+
+- GitHub actions
+  - OIDC
+  - IaC
 - GitHub Pages
   - Creating a GitHub Pages site
   - Hosting a website on GitHub Pages
@@ -66,10 +73,6 @@
   - Containers
   - Code
   - Releases
-- Q&A
-
-### Day 3
-
 - GitHub extensions
   - IDE extensions
   - Third-party tools
