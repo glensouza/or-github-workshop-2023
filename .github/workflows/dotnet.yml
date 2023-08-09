@@ -57,5 +57,5 @@ jobs:
         with:
           app-name: 'or-github-workshop'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_439D644ACAE24BEDAD769E8B87710A1E }}
+          publish-profile: ${{ secrets.AZUREWEBAPPDEPLOY }}
           package: .
