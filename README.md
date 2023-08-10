@@ -63,8 +63,7 @@
 ### Day 3
 
 - GitHub actions
-  - OIDC
-  - IaC
+  - [OIDC](./oidc-commands.md)
 - GitHub Pages
   - Creating a GitHub Pages site
   - Hosting a website on GitHub Pages
