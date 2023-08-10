@@ -1,5 +1,7 @@
 # OIDC Commands
 
+These commands were taken from [Microsoft Learn](https://learn.microsoft.com/en-us/azure/developer/github/connect-from-azure?tabs=azure-cli,linux&WT.mc_id=javascript-70241-aapowell).
+
 ## RBAC
 
 ### Log in to Azure
@@ -8,7 +10,7 @@
 
 ### Get Subscription Id
 
-"id": "66effa16-8b4b-4047-b8e1-d390ceddd4a5"
+"id": "xxx-xxx-xxx"
 
 ### Validate Resource Group
 
@@ -20,41 +22,41 @@ resourcegroupname: OR-GitHub-Workshop
 
 `az ad app create --display-name gsorgithubworkshop-github-deployer -o json`
 
-"appId": "68a1fadb-5a0d-4d48-b1db-9adbb3b9b4e8"
+"appId": "xxxx-xxx-xxxx"
 
-"id": "5aff654c-4b35-4971-bbca-d815047fab07"
+"id": "xxxxxxxx-xxxxxxx-xxxxxxxx"
 
 ### Create a Service Principal for the Application
 
-`az ad sp create --id 68a1fadb-5a0d-4d48-b1db-9adbb3b9b4e8 -o json`
+`az ad sp create --id xxxx-xxx-xxxx -o json`
 
 assigneeObjectId
 
-"id": "b82b7316-01cd-4bcc-8b6e-b43f3ae60745"
+"id": "xxxx-xxxxx-xxxx"
 
 tenantId
 
-"appOwnerOrganizationId": "9637eecd-fbd4-438a-848a-4e29f4d8eae5"
+"appOwnerOrganizationId": "xxxxxx-xxxxx-xxxxxx"
 
 ### Add service principal to the Contributor role for the subscription
 
-`az role assignment create --role contributor --subscription 66effa16-8b4b-4047-b8e1-d390ceddd4a5 --assignee-object-id  b82b7316-01cd-4bcc-8b6e-b43f3ae60745 --assignee-principal-type ServicePrincipal --scope /subscriptions/66effa16-8b4b-4047-b8e1-d390ceddd4a5`
+`az role assignment create --role contributor --subscription xxx-xxx-xxx --assignee-object-id  xxxx-xxxxx-xxxx --assignee-principal-type ServicePrincipal --scope /subscriptions/xxx-xxx-xxx`
 
-### Grant GitHub repository access to the service principal
+### Grant GitHub repository access to the service principal and federated credentials
 
 repo name: or-github-workshop-2023
 
-`az rest --method POST --uri 'https://graph.microsoft.com/beta/applications/5aff654c-4b35-4971-bbca-d815047fab07/federatedIdentityCredentials' --body "{'name':'github-deploy','issuer':'https://token.actions.githubusercontent.com','subject':'repo:glensouza/or-github-workshop-2023:ref:refs/heads/main','description':'Deploy from GitHub Actions','audiences':['api://AzureADTokenExchange']}" --header "{'contenttype': 'application/json'}"`
+`az rest --method POST --uri 'https://graph.microsoft.com/beta/applications/xxxxxxxx-xxxxxxx-xxxxxxxx/federatedIdentityCredentials' --body "{'name':'github-deploy','issuer':'https://token.actions.githubusercontent.com','subject':'repo:glensouza/or-github-workshop-2023:ref:refs/heads/main','description':'Deploy from GitHub Actions','audiences':['api://AzureADTokenExchange']}" --header "{'contenttype': 'application/json'}"`
 
-### GitHub Secrets:
+## GitHub Secrets
 
 ```shell
-`AZURE_CLIENT_ID` `68a1fadb-5a0d-4d48-b1db-9adbb3b9b4e8`
-`AZURE_TENANT_ID` `9637eecd-fbd4-438a-848a-4e29f4d8eae5`
-`AZURE_SUBSCRIPTION_ID` `66effa16-8b4b-4047-b8e1-d390ceddd4a5`
+`AZURE_CLIENT_ID` `xxxx-xxx-xxxx`
+`AZURE_TENANT_ID` `xxxxxx-xxxxx-xxxxxx`
+`AZURE_SUBSCRIPTION_ID` `xxx-xxx-xxx`
 ```
 
-### Action YML
+## Action YML
 
 ```yml
 actions yml:
