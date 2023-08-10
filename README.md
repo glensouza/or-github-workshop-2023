@@ -63,8 +63,7 @@
 ### Day 3
 
 - GitHub actions
-  - OIDC
-  - IaC
+  - [OIDC](./oidc-commands.md)
 - GitHub Pages
   - Creating a GitHub Pages site
   - Hosting a website on GitHub Pages
@@ -73,9 +72,7 @@
   - Containers
   - Code
   - Releases
-- GitHub extensions
-  - IDE extensions
-  - Third-party tools
+- GitHub IDE extensions
 - GitHub for team collaboration
   - Managing team members
 - GitHub Advanced Security
