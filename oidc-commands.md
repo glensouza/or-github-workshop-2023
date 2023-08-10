@@ -22,13 +22,13 @@ resourcegroupname: OR-GitHub-Workshop
 
 `az ad app create --display-name gsorgithubworkshop-github-deployer -o json`
 
-"appId": "xxxx-xxx-xxxx"
+"appId": "sssss-ssss-sssss"
 
 "id": "xxxxxxxx-xxxxxxx-xxxxxxxx"
 
 ### Create a Service Principal for the Application
 
-`az ad sp create --id xxxx-xxx-xxxx -o json`
+`az ad sp create --id sssss-ssss-sssss -o json`
 
 assigneeObjectId
 
@@ -51,7 +51,7 @@ repo name: or-github-workshop-2023
 ## GitHub Secrets
 
 ```shell
-`AZURE_CLIENT_ID` `xxxx-xxx-xxxx`
+`AZURE_CLIENT_ID` `sssss-ssss-sssss`
 `AZURE_TENANT_ID` `xxxxxx-xxxxx-xxxxxx`
 `AZURE_SUBSCRIPTION_ID` `xxx-xxx-xxx`
 ```
