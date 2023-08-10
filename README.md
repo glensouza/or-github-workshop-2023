@@ -72,9 +72,7 @@
   - Containers
   - Code
   - Releases
-- GitHub extensions
-  - IDE extensions
-  - Third-party tools
+- GitHub IDE extensions
 - GitHub for team collaboration
   - Managing team members
 - GitHub Advanced Security
